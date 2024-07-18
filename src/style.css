@@ -12,8 +12,9 @@ body {
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .img-responsive {
@@ -29,7 +30,7 @@ body {
 
 .grid {
     display: grid;
-    grid-gap: 80px;
+    grid-gap: 40px;
 }
 
 .border-top-bottom {
@@ -58,11 +59,44 @@ body {
 }
 
 .block-center {
+    display: block;
+    margin: 0 auto;
     text-align: center;
+}
+
+.block-center-favorite {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .yellow {
     background-color: var(--secondary-color);
+}
+
+.card{
+    border:#1D1B1B 1px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    padding: 10px 30px;
+}
+
+.card-image {
+    background-color: var(--primary-color);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img {
+    width: 100%;
+    border: 5px solid var(--secondary-color);
+    box-sizing: border-box;
 }
 
 header {
@@ -93,6 +127,13 @@ h2{
     margin: 0;
 }
 
+h3 {
+    font-family: var(--heading-font);
+    font-size: 28px;
+    margin: 30px 10px 10px 0px;
+
+}
+
 h4 {
     font-family: var(--heading-font);
     font-size: 24px;
@@ -120,7 +161,7 @@ button {
     font-weight: 300;
     padding:0px 5px ;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 nav div {
@@ -141,9 +182,9 @@ nav {
 }
 
 section {
-    display: block;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 130px 150px;
+    padding: 100px;
 }
 
 img {
