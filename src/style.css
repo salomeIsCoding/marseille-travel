@@ -29,13 +29,40 @@ body {
 
 .grid {
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 80px;
 }
 
 .border-top-bottom {
     border-top: #1D1B1B 1px solid;
     border-bottom: #1D1B1B 1px solid;
     margin-top: 30px;
+}
+
+#notice-photo{
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5% 3% 5%;
+}
+
+.container-heading {
+    margin-top: 120px;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.block-center {
+    text-align: center;
+}
+
+.yellow {
+    background-color: var(--secondary-color);
 }
 
 header {
@@ -62,8 +89,14 @@ h1 {
 
 h2{
     font-family: var(--heading-font);
-    font-size: 80px;
+    font-size: 70px;
     margin: 0;
+}
+
+h4 {
+    font-family: var(--heading-font);
+    font-size: 24px;
+    font-weight: 300;
 }
 
 h5 {
@@ -77,6 +110,7 @@ h5 {
 p {
     font-family: var(--default-font);
     font-weight: 300;
+    font-size: 15px;
 }
 
 button {
@@ -100,35 +134,17 @@ nav div {
 nav div:hover {
     text-decoration: underline 4px #FFE677;
     cursor: pointer;
-    
 }
 
 nav {
     margin-top: 35px;
 }
 
-.container-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 3% 5% 3% 5%;
-    
-}
-
-.container-heading {
-    margin-top: 120px;
-}
-
-.logo {
-    max-width: 80px;
-}
-
 section {
     display: block;
     margin: 0 auto;
-    padding: 130px 170px;
+    padding: 130px 150px;
 }
-
-
 
 img {
     object-fit: cover;
@@ -138,7 +154,7 @@ img {
 .container-footer {
     font-family: var(--heading-font);
     border-top: 2px solid #1D1B1B;
-    margin: 20px 50px 20px 50px;
+    margin: 20px 50px 0px 50px;
 }
 
 .heading-footer {
