@@ -1,14 +1,41 @@
 :root {
     --heading-font:"Big Shoulders Display",
         sans-serif;
-    --default-font:"Playwrite PE",
-        cursive;
+    --default-font:"Poppins",
+        sans-serif;
     --primary-color: #9EC6EA;
     --secondary-color: #FFE677;
 }
 
 body {
     margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 40px;
+}
+
+.border-top-bottom {
+    border-top: #1D1B1B 1px solid;
+    border-bottom: #1D1B1B 1px solid;
+    margin-top: 30px;
 }
 
 header {
@@ -22,7 +49,7 @@ header {
     background-repeat: no-repeat;
     border-radius: 0px 0px 50px 50px;
     text-align: center;
-    box-shadow: 0px 15px 31px rgba(93, 93, 93, 0.2);
+    box-shadow: 0px 15px 31px rgba(53, 53, 53, 0.2);
 }
 
 h1 {
@@ -33,6 +60,25 @@ h1 {
     margin: 20px 0px;
 }
 
+h2{
+    font-family: var(--heading-font);
+    font-size: 80px;
+    margin: 0;
+}
+
+h5 {
+    display: inline-block;
+    padding: 7px 15px;
+    font-family: var(--heading-font);
+    border: #1D1B1B 1px solid;
+    text-align: center;
+}
+
+p {
+    font-family: var(--default-font);
+    font-weight: 300;
+}
+
 button {
     background-color: var(--secondary-color);
     font-family: var(--heading-font);
@@ -40,6 +86,7 @@ button {
     font-weight: 300;
     padding:0px 5px ;
     border: none;
+    margin-bottom: 10px;
 }
 
 nav div {
@@ -48,6 +95,12 @@ nav div {
     font-size: 20px;
     font-weight: 500;
     padding-left: 50px;
+}
+
+nav div:hover {
+    text-decoration: underline 4px #FFE677;
+    cursor: pointer;
+    
 }
 
 nav {
@@ -69,11 +122,23 @@ nav {
     max-width: 80px;
 }
 
+section {
+    display: block;
+    margin: 0 auto;
+    padding: 130px 170px;
+}
+
+
+
+img {
+    object-fit: cover;
+}
+
 /* Footer */
 .container-footer {
     font-family: var(--heading-font);
     border-top: 2px solid #1D1B1B;
-    margin: 100px 50px 100px 50px;
+    margin: 20px 50px 20px 50px;
 }
 
 .heading-footer {
@@ -87,11 +152,6 @@ nav {
     font-size: 23px;
 }
 
-#copyright {
-    font-family: var(--default-font);
-    font-weight: 600;
-    font-size: 15px;
-}
 
 .footer-informations{
     display: grid;
@@ -99,16 +159,6 @@ nav {
     grid-gap: 10%;
     margin-right: 50%;
     margin-left: 2%;
-}
-
-#information-line {
-    border-top: #1D1B1B 1px solid;
-}
-
-#information-line div {
-    margin-top: 20px;
-    font-size: 23px;
-    font-weight: 300;
 }
 
 .social-media {
@@ -125,7 +175,26 @@ nav {
     justify-content: space-between;
 }
 
+.info {
+    font-weight: 200;
+}
+
 .phone {
     display: flex;
     justify-content: space-between;
+}
+
+.border-top {
+    border-top: #1D1B1B 1px solid;
+}
+
+.border-top div{
+    margin-top: 10px;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
 }
