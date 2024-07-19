@@ -86,6 +86,7 @@ button {
     font-weight: 300;
     padding:0px 5px ;
     border: none;
+    color: #1D1B1B;
     margin-bottom: 20px;
 }
 
@@ -426,11 +427,11 @@ footer {
 
 @media (max-width: 481px) {
     header {
-            height: 50vh;
+            height: 100vh;
         }
 
     h1 {
-        font-size: 60px;
+        font-size: 90px;
     }
 
     .logo{
