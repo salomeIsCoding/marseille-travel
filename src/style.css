@@ -12,9 +12,12 @@ body {
 }
 
 .container {
-    max-width: 1400px;
     margin: 0 auto;
     background-color: white;
+}
+
+.max-width{
+    max-width: 1300px;
 }
 
 .img-responsive {
@@ -30,7 +33,7 @@ body {
 
 .grid {
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 30px;
 }
 
 .border-top-bottom {
@@ -64,6 +67,14 @@ body {
     text-align: center;
 }
 
+.block-center img {
+    transition: all 200ms ease-in-out;
+}
+.block-center img:hover {
+    scale: 1.1;
+    transition: all 200ms ease-in-out;
+}
+
 .block-center-favorite {
     display: block;
     margin: 0 auto;
@@ -76,9 +87,12 @@ body {
 }
 
 .card{
+    display: block;
+    margin: 0 auto;
     border:#1D1B1B 1px solid;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-width: 300px;
 }
 
 .card-header {
@@ -184,7 +198,7 @@ nav {
 section {
     max-width: 100%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 130px ;
 }
 
 img {
@@ -254,4 +268,9 @@ img {
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
