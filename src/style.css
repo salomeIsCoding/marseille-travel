@@ -11,9 +11,8 @@ body {
     margin: 0;
 }
 
-.container {
-    margin: 0 auto;
-    background-color: white;
+html {
+    scroll-behavior: smooth;
 }
 
 .max-width{
@@ -212,12 +211,12 @@ section {
     padding: 130px ;
 }
 
-.spotify {
-    padding-top: 50px;
-}
-
 img {
     object-fit: cover;
+}
+
+.spotify {
+    padding-top: 50px;
 }
 
 .gallery {
