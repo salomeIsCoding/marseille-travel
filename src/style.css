@@ -393,7 +393,7 @@ footer {
     font-style: normal;
 }
 
-@media (max-width: 897px) {
+@media (max-width: 890px) {
     header {
         height: 100vh;
     }
