@@ -393,7 +393,7 @@ footer {
     font-style: normal;
 }
 
-@media (max-width: 2340px) {
+/* @media (max-width: 2340px) {
     header {
         height: 100vh;
     }
@@ -431,7 +431,7 @@ footer {
     #mobile-version {
         height: 450px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     header {
@@ -461,7 +461,12 @@ footer {
     }
 
     section {
+        padding: 100px 30px 50px 30px;
+    }
+    
+    .yellow {
         padding: 100px 30px;
+        
     }
 }
 
