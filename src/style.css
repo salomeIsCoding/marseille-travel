@@ -393,6 +393,46 @@ footer {
     font-style: normal;
 }
 
+@media (max-width: 897px) {
+    header {
+        height: 100vh;
+    }
+
+    .container-heading {
+        margin-top: 0px;
+    }
+
+    nav div {
+        font-size: 17px;
+    }
+
+    .container-nav {
+        padding-bottom: 0;
+    }
+
+    h1 {
+        font-size: 80px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    section {
+        padding: 100px 30px;
+    }
+
+    #mobile-version {
+        height: 450px;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         height: 60vh;
