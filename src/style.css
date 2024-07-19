@@ -15,6 +15,31 @@ html {
     scroll-behavior: smooth;
 }
 
+.go-back {
+    position: fixed;
+        bottom: 40px;
+        right: 40px;
+        height: 70px;
+        width:50px;
+        background-color: var(--primary-color);
+        color:#1D1B1B;
+        border: none;
+        border-radius: 50%;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: #1D1B1B 3px solid ;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        font-family: var(--heading-font);
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+}
+
+.go-back div {
+    padding-top: 8px;
+}
+
 .max-width{
     max-width: 1100px;
 }
@@ -32,7 +57,7 @@ html {
 
 .grid {
     display: grid;
-    grid-gap: 60px;
+    grid-gap: 20px;
 }
 
 .border-top-bottom {
